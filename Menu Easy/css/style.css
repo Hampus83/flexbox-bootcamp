@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    background-color: #ffffff;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 5rem auto;
+}
+
+.option-marked {
+    background-color: #6b6666;
+    color: #d8d8d8;
+    padding: 1rem 7rem;
+}
+
+.option {
+    background-color: #d8d8d8;
+    padding: 1rem 7rem;
+}

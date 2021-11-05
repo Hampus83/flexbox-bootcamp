@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.menu {
+    background-color: #d8d8d8;
+    list-style-type: none;
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    margin: 10rem auto;
+    padding-inline-start: unset;
+}
+
+img {
+    margin: 7px 20px;
+    margin-right: auto;
+}
+
+.menu-option {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 1rem;
+}

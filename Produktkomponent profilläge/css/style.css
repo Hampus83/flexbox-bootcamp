@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d8d8d8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    width: 20rem;
+    height: 30rem;
+    margin: 10rem auto;
+    box-shadow: 2px 4px 15px #aaa5a5;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 212, 56);
+    color: rgb(255, 233, 194);
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+    margin-top: auto;
+}
+
+.artnr {
+    display: inline;
+    align-self: flex-end;
+    margin: auto 5px 5px 0;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    width: 15.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.model {
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.info-text {
+    font-weight: 100;
+}
+
+.price {
+    align-self: flex-end;
+    margin: 20px;
+    font-weight: 900;
+    font-size: 2rem;
+}

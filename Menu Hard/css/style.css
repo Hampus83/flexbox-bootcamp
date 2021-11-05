@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #919191
+}
+
+.menu {
+    list-style-type: none;
+    padding-inline-start: unset;
+    background-color: #d8d8d8;
+    display: flex;
+    
+    width: 80%;
+    height: 2rem;
+    margin: 2rem auto;
+}
+
+.menu-option {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 12px;
+    
+}
+
+img {
+    margin: 7px 20px;
+    margin-right: auto;
+}
+
+.login {
+    margin: 7px 7px 7px auto;
+    font-size: 10px;
+    background-color: #d8d8d8;
+    color: #919191;
+    border: 1px solid #919191;
+    border-radius: 4px;
+    padding: 0 10px;    
+}

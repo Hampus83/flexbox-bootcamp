@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d8d8d8;
+}
+
+.flag {
+    background-color: white;
+    width: 40rem;
+    height: 25rem;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 20px rgb(175, 175, 175);
+}
+
+.circle {
+    background-color: rgb(194, 10, 10);
+    width: 14rem;
+    height: 14rem;
+    border-radius: 100%
+}

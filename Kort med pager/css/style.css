@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    background-color: #999999;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 30%;
+    height: 45%;
+    margin: 10rem auto;
+    border-radius: 5px;
+    box-shadow: 2px 4px 21px #706f6f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: auto;
+}
+
+.quote-person {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #807d7d;
+    margin-top: -10px;
+}
+
+.carousel {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+
+.dot-black {
+    background-color: #000000;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.dot-grey {
+    background-color: #807d7d;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
